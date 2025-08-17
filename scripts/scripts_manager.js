@@ -5,7 +5,8 @@ import { build as esbuild } from 'esbuild';
 import jest from 'jest';
 import _ from 'lodash';
 import { pathsToModuleNameMapper } from 'ts-jest';
-import tsconfig from './tsconfig.json' with { type: 'json' };
+import fs from 'fs';
+const tsconfig = JSON.parse(fs.readFileSync(new URL('./tsconfig.json', import.meta.url), 'utf-8'));
 
 function cjsDirname(url) {
   return pathlib.join(pathlib.dirname(fileURLToPath(url)));

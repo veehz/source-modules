@@ -25,9 +25,17 @@ const getBuildAllCommand = () => createBuildCommand('all', 'Build bundles and ta
   .addOption(bundlesOption)
   .addOption(tabsOption)
   .action(buildAllCommandHandler);
+const buildModulesOnly: BuildTask = async (inputs, opts) => buildModules(inputs, opts);
+const buildModulesOnlyCommandHandler = createBuildCommandHandler(buildModulesOnly);
+
+const getBuildModulesOnlyCommand = () => createBuildCommand('modules', 'Build bundles and tabs only')
+  .addOption(bundlesOption)
+  .addOption(tabsOption)
+  .action(buildModulesOnlyCommandHandler);
 
 const getBuildCommand = () => new Command('build')
-  .addCommand(getBuildAllCommand(), { isDefault: true })
+  // .addCommand(getBuildAllCommand(), { isDefault: true })
+  .addCommand(getBuildModulesOnlyCommand())
   .addCommand(getBuildBundlesCommand())
   .addCommand(getBuildDocsCommand())
   .addCommand(getBuildHtmlCommand())

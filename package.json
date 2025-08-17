@@ -119,7 +119,8 @@
     "source-academy-utils": "^1.0.0",
     "source-academy-wabt": "^1.0.4",
     "three": "^0.175.0",
-    "uniqid": "^5.4.0"
+    "uniqid": "^5.4.0",
+    "webgpu-torch": "^0.3.5"
   },
   "jest": {
     "projects": [

@@ -2765,6 +2765,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@webgpu/types@npm:^0.1.31":
+  version: 0.1.64
+  resolution: "@webgpu/types@npm:0.1.64"
+  checksum: 10c0/d17e3f855f687b466330ef7861a60914eb44c8ac6a16e32d050e770dea48d9814ee90bf70ecac2d38b940b591f42fea519b0e1f00f9ad96e1ddb1f62eee7a15b
+  languageName: node
+  linkType: hard
+
 "@yarnpkg/lockfile@npm:^1.1.0":
   version: 1.1.0
   resolution: "@yarnpkg/lockfile@npm:1.1.0"
@@ -7945,6 +7952,7 @@ __metadata:
     typescript-eslint: "npm:^8.24.1"
     uniqid: "npm:^5.4.0"
     vite: "npm:^6.3.4"
+    webgpu-torch: "npm:^0.3.5"
     yarnhook: "npm:^0.6.0"
   languageName: unknown
   linkType: soft
@@ -10953,6 +10961,15 @@ __metadata:
   version: 1.1.1
   resolution: "webgl-sdf-generator@npm:1.1.1"
   checksum: 10c0/769bfab22a9485a59bda9448d1d8684228adc9ebdac2cc69012a0854282385d1bef319f703758829e2c647e7532a9844e62977110e825bd75a3e0b8a0ee276ce
+  languageName: node
+  linkType: hard
+
+"webgpu-torch@npm:^0.3.5":
+  version: 0.3.5
+  resolution: "webgpu-torch@npm:0.3.5"
+  dependencies:
+    "@webgpu/types": "npm:^0.1.31"
+  checksum: 10c0/218546f2dfe879e43e90a9b68a3ce4ae168295661514c82b681127ebd1b72d9b668fb6ded8acd813fa9facf1d4f4ad8d4cb86e7eb5f08c4d33a9af6657d87e9d
   languageName: node
   linkType: hard
 

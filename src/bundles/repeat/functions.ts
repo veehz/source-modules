@@ -48,3 +48,7 @@ export function twice(func: Function): Function {
 export function thrice(func: Function): Function {
   return repeat(func, 3);
 }
+
+export function quadice(func: Function): Function {
+  return repeat(func, 4);
+}

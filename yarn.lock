@@ -3900,6 +3900,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sourceacademy/bundle-animate_graph@workspace:src/bundles/animate_graph":
+  version: 0.0.0-use.local
+  resolution: "@sourceacademy/bundle-animate_graph@workspace:src/bundles/animate_graph"
+  dependencies:
+    "@sourceacademy/modules-buildtools": "workspace:^"
+    "@veehz/animate-graph": "npm:^0.0.1"
+    js-slang: "npm:^1.0.85"
+    typescript: "npm:^5.8.2"
+  languageName: unknown
+  linkType: soft
+
 "@sourceacademy/bundle-arcade_2d@workspace:src/bundles/arcade_2d":
   version: 0.0.0-use.local
   resolution: "@sourceacademy/bundle-arcade_2d@workspace:src/bundles/arcade_2d"
@@ -4444,6 +4455,20 @@ __metadata:
     js-slang: ^1.0.85
     react: ^18.3.1
     react-dom: ^18.3.1
+  languageName: unknown
+  linkType: soft
+
+"@sourceacademy/tab-AnimateGraph@workspace:src/tabs/AnimateGraph":
+  version: 0.0.0-use.local
+  resolution: "@sourceacademy/tab-AnimateGraph@workspace:src/tabs/AnimateGraph"
+  dependencies:
+    "@sourceacademy/modules-buildtools": "workspace:^"
+    "@sourceacademy/modules-lib": "workspace:^"
+    "@types/react": "npm:^18.3.1"
+    "@types/react-dom": "npm:^18.3.1"
+    "@veehz/animate-graph": "npm:^0.0.1"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
   languageName: unknown
   linkType: soft
 
@@ -5843,6 +5868,15 @@ __metadata:
   version: 1.11.1
   resolution: "@unrs/resolver-binding-win32-x64-msvc@npm:1.11.1"
   conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@veehz/animate-graph@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "@veehz/animate-graph@npm:0.0.1"
+  dependencies:
+    d3: "npm:^7.9.0"
+  checksum: 10c0/38ba16462385edde84fdcd719998644e82ce10ba24403d2c822285a8281db4aec0209234316fb4c4b1ec98f8a7f4dedc3e48c7895a6dee97975b6011a7a1081a
   languageName: node
   linkType: hard
 
